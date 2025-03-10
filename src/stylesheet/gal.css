@@ -1,0 +1,61 @@
+
+.mySwipe .card {
+  height: fit-content !important; /* Adjust height as needed */
+  width: 300px !important;
+   /* Adjust width as needed */
+}
+@media (max-width: 768px) {
+  .o{
+    width: 100% !important;
+    margin-top: 50px !important;
+  }
+}
+.swiper{
+  height: 450px !important;
+  width: 90vw  !important;
+  display: flex !important;
+  justify-content: center !important; 
+  align-items: center !important;
+  margin-top: 15px; 
+  /* display: none; */
+  /* background-color: white; */
+}
+/* Optional: Adjust spacing between cards further */
+.mySwipe .swiper-slide-prev {
+  margin-right: 10px;
+}
+.mySwipe{
+  min-height: 50vh;
+}
+.mySwipe .swiper-slide-next {
+  margin-left: 10px;
+  
+}
+.swiper {
+  width: 50%;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding-bottom: 40px; */
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #e45454 !important;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  /* display: none; */
+
+}
+

@@ -1,0 +1,28 @@
+/* In your CSS file or inline styles */
+.rectangle {
+  background-color: #3498db;
+  
+  /* border: 2px dotted  antiquewhite; */
+  /* ... existing styles ... */
+  z-index: 100 !important;
+  transition: transform 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+.rectangle img{
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+.rectangle:hover {
+  transform: scale(1.2); 
+}
+.rectangle:hover >img{
+  opacity: 1;
+  transition: transform 1.5s ease-in-out;
+ 
+}
+.rectange{
+  font-size: 120px;
+  font-family: 'Lucida Sans';
+}

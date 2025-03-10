@@ -1,0 +1,99 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap'); */
+.footer-top{
+    background-color: #000;
+    /* padding-top: ; */
+    /* padding-bottom: 30px; */
+    height: 350px;
+    
+}
+.footer-links p{
+    font-size: 20px;
+    display: block;
+    color: white;
+    font-size: 18px; /* Adjust the font size as needed */
+    font-weight: bold; /* Adjust the font weight as needed */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.o{
+    color: #fff;
+    font-size: 18px;
+}
+.mb{
+    width: 100%;
+    
+}
+.footer-links a{
+    font-weight: 10;
+    color: white;
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold; /* Adjust the font weight as needed */
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    display: block;
+    /* font-weight: 200px; */
+}
+/* .fl{
+    margin-left: 200px;
+} */
+.title-sm{
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.k{
+  margin-left: 200px;
+  /* color: blue; */
+}
+.title-sm p{
+    max-width: 550px;
+    margin:20px auto;
+}
+a{
+    font-weight: 700;
+    transition: all 0.4s ease;
+}
+.iou{
+    width: 100%;
+}
+small{
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+section{
+    padding-top: 100px;
+    padding-bottom: 100px  ;
+}
+.logo-text{
+    font-size: 30px;
+    text-transform: uppercase;
+    /* color: blue !important; */
+}
+
+.footer-top{
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.footer-bottom{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+footer .footer-links a.footer .social-icons a{
+    color:#606163;
+}
+footer .social-icons a{
+    font-size:24px;
+    color: red;
+}
+footer .footer-links a{
+    display: block;
+    font-weight: 400px;
+}
+
+footer .social-icons a:hover,
+.o:hover,
+.mb:hover,
+footer .footer-links a:hover{
+    color:#E93B81;
+    transition: 0.5s ease-in;
+}

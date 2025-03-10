@@ -1,0 +1,59 @@
+
+.mySwiper .card {
+  height: fit-content !important; /* Adjust height as needed */
+  width: 300px !important;
+   /* Adjust width as needed */
+}
+.swiper{
+  height: 300px !important;
+  width: 900px  !important;
+  /* border: 5px solid black; */
+  display: flex !important;
+  justify-content: center !important; 
+  align-items: center !important;
+  margin-top: 15px; 
+  /* background-color: white; */
+}
+/* Optional: Adjust spacing between cards further */
+.mySwiper .swiper-slide-prev {
+  margin-right: 10px;
+}
+
+.mySwiper .swiper-slide-next {
+  margin-left: 10px;
+}
+.close-pop-up{
+  margin-left: 900px !important;
+}
+.close-pop-up:hover{
+  /* border: 1px solid black; */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #c0c0c0;
+  color: black;
+}
+.swiper {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  
+  
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #e45454 !important;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
