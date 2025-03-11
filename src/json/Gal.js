@@ -1,6 +1,41 @@
 export const GallaryImages = [
   {
     id: 1,
+    images: require("../assets/gallary/websiteImages/2024/GR-- (46 of 120).jpg"),
+    year: 2024,
+  },
+  {
+    id: 1,
+    images: require("../assets/gallary/websiteImages/2024/_02I0019.jpg"),
+    year: 2024,
+  },
+  {
+    id: 1,
+    images: require("../assets/gallary/websiteImages/2024/DSC00943.jpg"),
+    year: 2024,
+  },
+  {
+    id: 1,
+    images: require("../assets/gallary/websiteImages/2024/DSC01298.jpg"),
+    year: 2024,
+  },
+  {
+    id: 1,
+    images: require("../assets/gallary/websiteImages/2024/GR-- (106 of 120).jpg"),
+    year: 2024,
+  },
+  {
+    id: 1,
+    images: require("../assets/gallary/websiteImages/2024/GR-- (67 of 120).jpg"),
+    year: 2024,
+  },
+  {
+    id: 1,
+    images: require("../assets/gallary/websiteImages/2024/DSC01683.jpg"),
+    year: 2024,
+  },
+  {
+    id: 1,
     images: require("../assets/gallary/websiteImages/2023-resized/Copy of GR- (11).jpg"),
     year: 2023,
   },

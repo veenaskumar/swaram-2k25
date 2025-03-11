@@ -32,6 +32,7 @@ function Gal() {
 <button className={`hover:bg-red-500 hover:text-[white] text-[#d4d2d2] font-semibold py-2 px-4 rounded-full focus:outline-none transition-all duration-1200 ease-in-out ${selectedYear === 2019 ? 'bg-[red] text-white' : ''}`} onClick={() => handleButtonClick(2019)}>2k19</button>
 <button className={`hover:bg-red-500 hover:text-[white] text-[#d4d2d2] font-semibold py-2 px-4 rounded-full focus:outline-none transition-all duration-1200 ease-in-out ${selectedYear === 2020 ? 'bg-[red] text-white' : ''}`} onClick={() => handleButtonClick(2020)}>2k20</button>
 <button className={`hover:bg-red-500 hover:text-[white] text-[#d4d2d2] font-semibold py-2 px-4 rounded-full focus:outline-none transition-all duration-1200 ease-in-out ${selectedYear === 2023 ? 'bg-[red] text-white' : ''}`} onClick={() => handleButtonClick(2023)}>2k23</button>
+<button className={`hover:bg-red-500 hover:text-[white] text-[#d4d2d2] font-semibold py-2 px-4 rounded-full focus:outline-none transition-all duration-1200 ease-in-out ${selectedYear === 2024 ? 'bg-[red] text-white' : ''}`} onClick={() => handleButtonClick(2024)}>2k24</button>
     </div>
     <div className='mt-[-2%]  min-w-[100%]    sm:mt-[-10%] ' >
     <GCarsol selectedYear={selectedYear} ></GCarsol>

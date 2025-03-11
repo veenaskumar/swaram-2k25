@@ -1,59 +1,74 @@
-const Data=[
-    {
-        "id":1,
-        "image":require("../assets/SponserLogo/NITIndia.png"),
-    },
-    {
-        "id":1,
-        "image":require("../assets/SponserLogo/Radha ghee logo.jpg"),
-        
-    },
-    {
-        "id":1,
-        "image":require("../assets/SponserLogo/family_time.jpg")
-    },
-    {
-        "id":1,
-        "image":require("../assets/SponserLogo/gr_media.png")
-    },
-    {
-        "id":1,
-        "image":require("../assets/SponserLogo/kongufm904erode-radio.jpg")
-    },
-    {
-        "id":1,
-        "image":require("../assets/SponserLogo/planet_B.jpg")
-    },
-    {
-        "id":1,
-        "image":require("../assets/SponserLogo/srm.png")
-    },
-    {
-        "id":1,
-        "image":require("../assets/SponserLogo/KEC PHOTOGRAPHY CLUB-1 (1).png")
-    },
-    {
-        "id":1,
-        "image":require("../assets/SponserLogo/aramIASAcadamy.png")
-    },
-    {
-        "id":1,
-        "image":require("../assets/SponserLogo/RCNChannel.png")
-    },
-    {
-        "id":1,
-        "image":require("../assets/SponserLogo/SuryanFM.png")
-    },
-    {
-        "id":1,
-        "image":require("../assets/SponserLogo/VenomCreations.png")
-    },
-    {
-        "id":1,
-        "image":require("../assets/SponserLogo/deviSounds.jpg")
-    }
-    
-]
+const Data = [
+  {
+    id: 1,
+    image: require("../assets/SponserLogo/perundurai.png"),
+  },
+  {
+    id: 2,
+    image: require("../assets/SponserLogo/Radha ghee logo.jpg"),
+  },
+  {
+    id: 3,
+    image: require("../assets/SponserLogo/planet_B.jpg"),
+  },
+  {
+    id: 4,
+    image: require("../assets/SponserLogo/sakthi.jpeg"),
+  },
+  {
+    id: 5,
+    image: require("../assets/SponserLogo/mega.png"),
+  },
+  {
+    id: 6,
+    image: require("../assets/SponserLogo/knconst.png"),
+  },
+  {
+    id: 7,
+    image: require("../assets/SponserLogo/pranav.jpg"),
+  },
+  {
+    id: 8,
+    image: require("../assets/SponserLogo/sara_mart.jpg"),
+  },
+  {
+    id: 9,
+    image: require("../assets/SponserLogo/ktm.jpg"),
+  },
+  {
+    id: 10,
+    image: require("../assets/SponserLogo/isha.PNG"),
+  },
+  {
+    id: 11,
+    image: require("../assets/SponserLogo/srm.png"),
+  },
+  {
+    id: 12,
+    image: require("../assets/SponserLogo/eroPrints.png"),
+  },
+  {
+    id: 13,
+    image: require("../assets/SponserLogo/kvb.png"),
+  },
+  {
+    id: 14,
+    image: require("../assets/SponserLogo/deeza.jpg"),
+  },
+  {
+    id: 15,
+    image: require("../assets/SponserLogo/AGNI.jpg"),
+  },
+  {
+    id: 16,
+    image: require("../assets/SponserLogo/sunrise.jpg"),
+  },
 
+  {
+    id: 1,
+    image: require("../assets/SponserLogo/aramIASAcadamy.png"),
+  },
+];
 
 export default Data;
+

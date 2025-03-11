@@ -49,8 +49,8 @@ function Contact() {
                     <p className="text-[#7e7874] text-[18px] font-semibold sm:text-[16px]">Student Coordiantors</p>
                     </div>
                     <div className="flex gap-[2rem] sm:flex sm:flex-col sm:gap-[0rem] sm:p-[0px]">
-                    <p className="text-[15px]">Karthick M - +91 63824 08969</p>
-                    <p className="text-[15px] ">Shreeram P V - +91 93448 42723</p>
+                    <p className="text-[15px]">Vishnu Promoth K- +91 91597 77413</p>
+                    <p className="text-[15px] ">Santhosh E - +91 97153 74248</p>
                     </div>
                   </div>
                 </div>
@@ -58,7 +58,7 @@ function Contact() {
             </div>
           </div>
         <div className="font-semibold text-[14px]"><center>Developed and maintained by <Link to={'/devs'}><span className="text-[red]">KEC</span></Link> </center></div>
-        </div>
+        </div>  
       </footer>
     </div>
   );

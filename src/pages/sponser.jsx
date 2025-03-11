@@ -2,19 +2,15 @@ import React from 'react'
 import Navbar1 from '../components/navbar'
 import Contact from '../components/contact'
 import '../stylesheet/gal.css'
-import NIT from '../assets/SponserLogo/NITIndia.png'
+import NIT from '../assets/SponserLogo/mega.png'
 import CoSponser from '../assets/SponserLogo/aramIASAcadamy.png'
 import EventSponser1 from '../assets/SponserLogo/Radha ghee logo.jpg'
 import EventSponser2 from '../assets/SponserLogo/eroPrints.png'
 import EventSponser3 from '../assets/SponserLogo/planet_B.jpg'
-import EventSponser4 from '../assets/SponserLogo/deviSounds.jpg'
-import Culinary1 from '../assets/SponserLogo/family_time.jpg'
+import EventSponser4 from '../assets/SponserLogo/knconst-cropped.png'
+import EventSponser5 from '../assets/SponserLogo/isha.PNG'
 import Culinary2 from '../assets/SponserLogo/srm.png'
 import MediaSponser1 from '../assets/SponserLogo/gr_media.png'
-import MediaSponser2 from '../assets/SponserLogo/kongufm904erode-radio.jpg'
-import MediaSponser3 from '../assets/SponserLogo/SuryanFM.png'
-import MediaSponser4 from '../assets/SponserLogo/RCNChannel.png'
-import MediaSponser5 from '../assets/SponserLogo/KEC PHOTOGRAPHY CLUB-1 (1).png'
 import MediaSponser6 from '../assets/SponserLogo/VenomCreations.png'
 function Sponser() {
   return (
@@ -49,14 +45,14 @@ function Sponser() {
                 <div>
                   <img src={EventSponser4} alt="" height={"250px"} width={"250px"} className='' />
                 </div>
+                <div>
+                  <img src={EventSponser5} alt="" height={"150px"} width={"250px"} className='' />
+                </div>
               </div>
             </div>
             <div className='flex flex-col items-center gap-[2rem] w-[100%]'>
               <h1 className='text-[red]'>Cullinary <span className='text-[white]'>Sponsers</span></h1>
               <div className='row justify-center gap-[4rem] items-center gap-y-[4rem] '>
-                <div>
-                  <img src={Culinary1} alt="" height={"250px"} width={"250px"} className='' />
-                </div>
                 <div>
                   <img src={Culinary2} alt="" height={"250px"} width={"250px"} className='p-[3.5rem]' />
                 </div>
@@ -72,19 +68,7 @@ function Sponser() {
                 <div>
                   <img src={MediaSponser6} alt="" height={"250px"} width={"250px"} className='p-[2.5rem]' />
                 </div>
-                <div>
-                  <img src={MediaSponser5} alt="" height={"250px"} width={"250px"} className='' />
-                </div>
-                <div>
-                  <img src={MediaSponser3} alt="" height={"250px"} width={"250px"} className='p-[3rem]' />
-                </div>
-                <div>
-                  <img src={MediaSponser2} alt="" height={"250px"} width={"250px"} className='p-[3.5rem]' />
-                </div>
-                
-                <div>
-                  <img src={MediaSponser4} alt="" height={"250px"} width={"250px"} className='' />
-                </div>
+               
                 
                 
               </div>

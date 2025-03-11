@@ -44,7 +44,7 @@ const Tracker = ({ property, time }) => {
 
 const Countdown = () => {
   const [time, setTime] = useState({});
-  const launchDate = new Date("2024-03-20T00:00:00");
+  const launchDate = new Date("2025-03-17T00:00:00");
 
   const calculateTimeLeft = () => {
     const now = new Date();
@@ -66,7 +66,10 @@ const Countdown = () => {
   }, []);
 
   return (
-    <div className="flip-clock w-92 h-48 float-right pr-[10%] sm:float-none sm:pr-[0] sm:flex sm:w-[100%] sm:text-center gap-[2rem] sm:pl-[20%]" data-date={launchDate}>
+    <div
+      className="flip-clock w-92 h-48 float-right pr-[10%] sm:float-none sm:pr-[0] sm:flex sm:w-[100%] sm:text-center gap-[2rem] sm:pl-[20%]"
+      data-date={launchDate}
+    >
       {["Days", "Hours", "Minutes", "Seconds"].map((tracker) => (
         <Tracker key={tracker} property={tracker} time={time} />
       ))}
@@ -75,3 +78,4 @@ const Countdown = () => {
 };
 
 export default Countdown;
+
